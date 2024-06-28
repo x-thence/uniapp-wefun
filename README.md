@@ -1,2 +1,19 @@
-# weifun
-一个记录什么信息的uniapp
+# uniapp-wefun
+Nodejs v16
+## Project setup
+```
+yarn install
+```
+
+### Compiles and hot-reloads for development
+```
+yarn serve
+```
+
+### Compiles and minifies for production
+```
+yarn build
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).

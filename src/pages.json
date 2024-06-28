@@ -1,0 +1,45 @@
+{
+  "easycom": {
+    "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+  },
+  "pages": [
+    {
+    	"path" : "pages/myInfo/myInfo",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "",
+    		"enablePullDownRefresh" : false
+    	}
+    },
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "发现"
+      }
+    }
+    
+  ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#1296db",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath": "static/dongtai.png",
+      "selectedIconPath": "static/dongtai2.png",
+      "text": "发现"
+    }, {
+      "pagePath": "pages/myInfo/myInfo",
+      "iconPath": "static/geren.png",
+      "selectedIconPath": "static/geren2.png",
+      "text": "我的"
+    }]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  }
+}
